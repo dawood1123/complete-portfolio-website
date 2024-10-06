@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive header </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header/navbar -->
+    <section>
+        <nav>
+            <ul class="main">
+                <li id="name_1"><a href="#hero"> <span id="D">D</span>AWOOD  <span id="A">A</span>HMED</a></li>
+                <li class="hideOnMobile"><a href="#hero">HOME</a></li>
+                <li class="hideOnMobile"><a href="#services">SERVICES</a></li>
+                <li class="hideOnMobile"><a href="#recent-projects">PROJECTS</a></li>
+                <li class="hideOnMobile"><a href="#about">ABOUT</a></li>
+                <li class="hideOnMobile"><a href="#contact">CONTACT</a></li>
+                <li id="h-b" class="menu-button" onclick="showhamburger()"><a href="#hamburger"></a><img width="50" height="50" src="https://img.icons8.com/sf-black/50/FFFFFF/menu.png" alt="menu"/></li>
+            </ul>
+            <ul class="hamburger">
+                <li onclick="closehamburger()"><a href="#"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/close-window.png" alt="close-window"/></a></li>
+                <li><a href="#hero">HOME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#recent-projects">PROJECTS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul> 
+        </nav>
+    </section>
+
+<!-- hero section -->
+    <section >
+        <div id="hero">
+            <div id="lines">
+                <h1>Hello!</h1>
+                <h1>My Name is</h1>
+                <h1 id="name_2" data-text="Dawood">Dawood</h1>
+            </div>
+            <div >
+                <button id="btn-1">PORTFOLIO</button>
+            </div>
+            <h3 id="extra">.</h3>
+            <h3 id="extra">.</h3>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div id="head">
+            <h1>SERV<span id="i">I</span>CES</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus praesentium ex, debitis et id aliquam ad doloremque possimus similique dolores quasi nulla unde quod maxime. Nisi repudiandae velit hic vitae dicta itaque est quod quia, quam quidem iste amet minus asperiores quisquam tenetur? Reprehenderit ipsam, excepturi unde autem culpa enim!</p>
+        </div>
+        <div id="cards">
+            <div>
+                <img width="70" height="70" src="https://img.icons8.com/water-color/70/services.png" alt="services"/>
+                <h2>Web Development</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus culpa labore velit, eveniet a nemo praesentium quaerat laboriosam aspernatur molestiae magnam similique architecto sunt corporis corrupti ex nam ut voluptatem!</p>
+            </div>
+            <div>
+                <img width="70" height="70" src="https://img.icons8.com/water-color/70/services.png" alt="services"/>
+                <h2>UI/UX Designing</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus culpa labore velit, eveniet a nemo praesentium quaerat laboriosam aspernatur molestiae magnam similique architecto sunt corporis corrupti ex nam ut voluptatem!</p>
+            </div>
+            <div>
+                <img width="70" height="70" src="https://img.icons8.com/water-color/70/services.png" alt="services"/>
+                <h2>Logo Designing</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus culpa labore velit, eveniet a nemo praesentium quaerat laboriosam aspernatur molestiae magnam similique architecto sunt corporis corrupti ex nam ut voluptatem!</p>
+            </div>
+            <div>
+                <img width="70" height="70" src="https://img.icons8.com/water-color/70/services.png" alt="services"/>
+                <h2>Web Development</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus culpa labore velit, eveniet a nemo praesentium quaerat laboriosam aspernatur molestiae magnam similique architecto sunt corporis corrupti ex nam ut voluptatem!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section -->
+    <section id="recent-projects">
+        <div >  
+            <div id="projects">
+                <div ><h1 id="pro">RECENT <span>PROJECTS</span></h1>
+                </div>
+            </div>
+            <div>
+                <div id="column">
+                    <div id="one">
+                        <h2>Project 01</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, cupiditate? Sed, saepe iure culpa blanditiis veniam illum quia laudantium exercitationem reprehenderit ipsam voluptatibus dolorem perspiciatis deleniti doloribus, adipisci itaque harum expedita natus corrupti inventore optio sapiente, autem laboriosam quae? Debitis aliquam est quo laboriosam veritatis, aliquid quia quis culpa non? Veritatis atque, culpa aliquam accusantium veniam dicta vero deserunt distinctio sed ipsam laudantium sunt molestiae iure ea vel, harum reiciendis cumque sequi eum, porro corrupti dolorum neque hic dolor! Eos.</p>
+                    </div>
+                    <div id="two">
+                        <h2>Project 01</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate explicabo et provident quisquam possimus? Tempora nesciunt eos sit asperiores ab eligendi fuga. Corrupti doloribus, sint commodi voluptas eligendi distinctio soluta?</p>
+                    </div>
+                </div>
+                <div id="column">
+                    <div id="two">
+                        <h2>Project 02</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate explicabo et provident quisquam possimus? Tempora nesciunt eos sit asperiores ab eligendi fuga. Corrupti doloribus, sint commodi voluptas eligendi distinctio soluta?</p>
+                    </div>
+                    <div id="one">
+                        <h2>Project 02</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, cupiditate? Sed, saepe iure culpa blanditiis veniam illum quia laudantium exercitationem reprehenderit ipsam voluptatibus dolorem perspiciatis deleniti doloribus, adipisci itaque harum expedita natus corrupti inventore optio sapiente, autem laboriosam quae? Debitis aliquam est quo laboriosam veritatis, aliquid quia quis culpa non? Veritatis atque, culpa aliquam accusantium veniam dicta vero deserunt distinctio sed ipsam laudantium sunt molestiae iure ea vel, harum reiciendis cumque sequi eum, porro corrupti dolorum neque hic dolor! Eos.</p>
+                    </div>
+                </div>
+                <div id="column">
+                    <div id="one">
+                        <h2>Project 03</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, cupiditate? Sed, saepe iure culpa blanditiis veniam illum quia laudantium exercitationem reprehenderit ipsam voluptatibus dolorem perspiciatis deleniti doloribus, adipisci itaque harum expedita natus corrupti inventore optio sapiente, autem laboriosam quae? Debitis aliquam est quo laboriosam veritatis, aliquid quia quis culpa non? Veritatis atque, culpa aliquam accusantium veniam dicta vero deserunt distinctio sed ipsam laudantium sunt molestiae iure ea vel, harum reiciendis cumque sequi eum, porro corrupti dolorum neque hic dolor! Eos.</p>
+                    </div>
+                    <div id="two">
+                        <h2>Project 01</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate explicabo et provident quisquam possimus? Tempora nesciunt eos sit asperiores ab eligendi fuga. Corrupti doloribus, sint commodi voluptas eligendi distinctio soluta?</p>
+                    </div>
+                </div>
+                <div id="column">
+                    <div id="two">
+                        <h2>Project 04</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate explicabo et provident quisquam possimus? Tempora nesciunt eos sit asperiores ab eligendi fuga. Corrupti doloribus, sint commodi voluptas eligendi distinctio soluta?</p>
+                    </div>
+                    <div id="one">
+                        <h2>Project 04</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, cupiditate? Sed, saepe iure culpa blanditiis veniam illum quia laudantium exercitationem reprehenderit ipsam voluptatibus dolorem perspiciatis deleniti doloribus, adipisci itaque harum expedita natus corrupti inventore optio sapiente, autem laboriosam quae? Debitis aliquam est quo laboriosam veritatis, aliquid quia quis culpa non? Veritatis atque, culpa aliquam accusantium veniam dicta vero deserunt distinctio sed ipsam laudantium sunt molestiae iure ea vel, harum reiciendis cumque sequi eum, porro corrupti dolorum neque hic dolor! Eos.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- About section -->
+     <section id="about">
+        <div id="about-conatiner">
+            <div id="about-contents">
+
+                <section id="imageSection">
+                    <img src="./pexels-italo-melo-881954-2379004.jpg" alt="">
+                </section>
+                <section id="infoSection">
+                    <h1>ABOUT <span>ME</span> </h1>
+                    <h2>Professional Web developer & Designer having 2 years of experience</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ea error accusamus impedit eius id sunt molestiae rem alias, eaque dolore consequatur, voluptas architecto reiciendis mollitia exercitationem officiis? Alias, dolorum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolor dolorem quasi placeat nam voluptate vel suscipit, qui perspiciatis dolores!</p>
+                    <div id="personalInfo">
+                        <div><span>Name:</span><span>Dawood Ahmed</span></div>
+                        <div><span>Age:</span><span>18 Years</span></div>
+                        <div><span>Email:</span><span>davidkhan1226@gmail.com</span></div>
+                        <div><span>Address:</span><span>City circular road, Peshawar, Pakistan</span></div>
+                    </div>
+                    <button>DOWNLOAD CV</button>
+                </section>
+
+            </div>
+        </div>
+     </section>
+
+     <!-- Contact section -->
+     <section id="contact">
+        <h1>CONTACT &nbsp;
+            <span>INFO</span></h1>
+        <div id="section-content">
+            <div id="sec-div">
+                <div id="img-s"><img width="80" height="80" src="https://img.icons8.com/arcade/80/phone.png" alt="phone"/></div>
+                <div id="cont"><h3>Phone</h3>
+                    <p>0319-0419991</p>
+                    <p>0343-9125442</p></div>
+            </div>
+            
+            <div id="sec-div">
+                <div id="img-s"><img width="80" height="80" src="https://img.icons8.com/scribby/80/new-post.png" alt="new-post"/></div>
+                <div id="cont">
+                    <h3>Email</h3>
+                <p>davidkhan1226@gmail.com</p>
+                <p>davidkhan1226@gmail.com</p>
+                </div>
+            </div>
+            <div id="sec-div">
+                <div id="img-s"><img width="80" height="80" src="https://img.icons8.com/office/100/address.png" alt="address"/></div>
+                <div id="cont"><h3>Address</h3>
+                    <p>City circular road</p>
+                    <p>Peshawar, Pakistan</p></div>
+            </div>
+        </div>
+     </section>
+
+     <!-- footer -->
+     <section id="footer">
+        <div id="footer-section">
+            <a href="#hero"><span id="D">D</span>AWOOD &nbsp; <span id="D">A</span>HMED</a>
+            <h3>Your complete Web Solution</h3>
+            <div>
+                <img width="50" height="50" src="https://img.icons8.com/deco/50/linkedin.png" alt="linkedin"/>
+                <img width="50" height="50" src="https://img.icons8.com/deco/50/github.png" alt="github"/>
+                <img width="50" height="50" src="https://img.icons8.com/deco/50/twitter.png" alt="twitter"/>
+                <img width="50" height="50" src="https://img.icons8.com/plumpy/100/youtube-play.png" alt="youtube-play"/>
+            </div>
+            <p>Copyright &copy; 2024 Dawood. All rights reserved</p>
+        </div>
+     </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
